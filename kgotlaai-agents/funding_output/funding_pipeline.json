@@ -1,0 +1,89 @@
+{
+  "immediate": [
+    {
+      "source": "sefa",
+      "program": "Direct Lending",
+      "amount": "R5 million max",
+      "timeline": "4-8 weeks",
+      "priority": "HIGH",
+      "action": "Prepare business plan and apply online",
+      "url": "https://www.sefa.org.za/apply-for-funding"
+    },
+    {
+      "source": "seda",
+      "program": "Business Support + Incubation",
+      "amount": "Free services",
+      "timeline": "2-4 weeks",
+      "priority": "HIGH",
+      "action": "Register at local SEDA branch",
+      "url": "https://www.seda.org.za/contact-us"
+    },
+    {
+      "source": "nef",
+      "program": "iMbewu Fund",
+      "amount": "R250k - R10 million",
+      "timeline": "6-12 weeks",
+      "priority": "HIGH",
+      "action": "Prepare comprehensive application with B-BBEE cert",
+      "url": "https://www.nefcorp.co.za/funding-solutions"
+    }
+  ],
+  "short_term": [
+    {
+      "source": "idc",
+      "program": "Gro-E Youth Scheme",
+      "amount": "Up to R1 million",
+      "timeline": "8-12 weeks",
+      "priority": "MEDIUM",
+      "action": "Complete feasibility study",
+      "url": "https://www.idc.co.za/funding"
+    },
+    {
+      "source": "dtic_grants",
+      "program": "Black Industrialists Scheme",
+      "amount": "Up to R50 million",
+      "timeline": "3-6 months",
+      "priority": "MEDIUM",
+      "action": "Engage DTIC business officer",
+      "url": "https://www.thedtic.gov.za/financial-and-non-financial-support/"
+    },
+    {
+      "source": "anglo_american_zimele",
+      "program": "Enterprise Development",
+      "amount": "Various",
+      "timeline": "2-3 months",
+      "priority": "MEDIUM",
+      "action": "Submit supplier application",
+      "url": "https://www.angloamerican.com/suppliers"
+    }
+  ],
+  "medium_term": [
+    {
+      "source": "4di_capital",
+      "program": "Early-stage Investment",
+      "amount": "R1-10 million",
+      "timeline": "3-6 months",
+      "priority": "MEDIUM",
+      "action": "Prepare pitch deck, reach out to partners",
+      "url": "https://www.4dicapital.com/apply"
+    },
+    {
+      "source": "jozi_angels",
+      "program": "Angel Investment",
+      "amount": "R500k-5 million",
+      "timeline": "2-4 months",
+      "priority": "MEDIUM",
+      "action": "Apply online, prepare for pitch",
+      "url": "https://www.joziangels.com/apply"
+    },
+    {
+      "source": "private_banks",
+      "program": "Enterprise Development",
+      "amount": "Various",
+      "timeline": "1-3 months",
+      "priority": "LOW",
+      "action": "Approach relationship managers",
+      "url": "Contact ABSA, Nedbank, Standard Bank"
+    }
+  ]
+}

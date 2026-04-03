@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-04-04T02:30:25.124437",
+  "kpis": {
+    "leads_generated_today": 138,
+    "leads_this_week": 0,
+    "content_posts_scheduled": 3,
+    "website_issues_critical": 2,
+    "funding_applications_pending": 0,
+    "team_avg_progress": 0.0,
+    "pipeline_value": 0
+  },
+  "actions_count": 5,
+  "critical_actions": 1
+}

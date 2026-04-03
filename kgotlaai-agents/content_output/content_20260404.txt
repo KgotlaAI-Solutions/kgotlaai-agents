@@ -1,0 +1,41 @@
+
+============================================================
+POST post_20260404_1
+Theme: educational
+Industry: mining
+Suggested Time: 08:00
+============================================================
+
+What's the difference between digital twin and predictive maintenance?
+
+digital twin: AI that learns patterns from data
+predictive maintenance: rules-based automation
+
+In practice: ML adapts to new situations; traditional automation follows fixed rules
+
+Knowing this saves you from buying the wrong solution. #SouthAfricaMining #AI101
+
+
+============================================================
+POST post_20260404_2
+Theme: thought_leadership
+Industry: logistics
+Suggested Time: 12:30
+============================================================
+
+Unpopular opinion: Logistics doesn't need more AI—it needs better AI implementation.
+
+Here's why: Technology is easy. Change management is hard.
+
+Agree or disagree? Let's discuss. 👇 #SupplyChain #AI
+
+
+============================================================
+POST post_20260404_3
+Theme: case_studies
+Industry: manufacturing
+Suggested Time: 17:00
+============================================================
+
+Last month we helped a major save R20M annually by automating demand forecasting. Here's how: automating manual data entry and analysis. #DigitalTransformation
+

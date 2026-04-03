@@ -1,0 +1,32 @@
+[
+  {
+    "id": "post_20260404_1",
+    "theme": "educational",
+    "industry": "mining",
+    "content": "What's the difference between digital twin and predictive maintenance?\n\ndigital twin: AI that learns patterns from data\npredictive maintenance: rules-based automation\n\nIn practice: ML adapts to new situations; traditional automation follows fixed rules\n\nKnowing this saves you from buying the wrong solution. #SouthAfricaMining #AI101",
+    "platform": "LinkedIn",
+    "scheduled_time": "08:00",
+    "status": "ready_to_post",
+    "created_at": "2026-04-04T02:30:25.121977"
+  },
+  {
+    "id": "post_20260404_2",
+    "theme": "thought_leadership",
+    "industry": "logistics",
+    "content": "Unpopular opinion: Logistics doesn't need more AI\u2014it needs better AI implementation.\n\nHere's why: Technology is easy. Change management is hard.\n\nAgree or disagree? Let's discuss. \ud83d\udc47 #SupplyChain #AI",
+    "platform": "LinkedIn",
+    "scheduled_time": "12:30",
+    "status": "ready_to_post",
+    "created_at": "2026-04-04T02:30:25.122044"
+  },
+  {
+    "id": "post_20260404_3",
+    "theme": "case_studies",
+    "industry": "manufacturing",
+    "content": "Last month we helped a major save R20M annually by automating demand forecasting. Here's how: automating manual data entry and analysis. #DigitalTransformation",
+    "platform": "LinkedIn",
+    "scheduled_time": "17:00",
+    "status": "ready_to_post",
+    "created_at": "2026-04-04T02:30:25.122077"
+  }
+]

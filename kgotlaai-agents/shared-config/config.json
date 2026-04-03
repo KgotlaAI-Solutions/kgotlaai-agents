@@ -1,0 +1,18 @@
+{
+  "company_name": "Kgotla AI",
+  "founder_name": "Mahlo Kgotleng",
+  "email": "mahlo@kgotlaai.co.za",
+  "website": "kgotlaai.co.za",
+  "linkedin_url": "https://www.linkedin.com/in/mahlo-kgotleng-473830194",
+  "funding_target": 320100,
+  "equity_offered": 50,
+  "github_repo": "kgotlaai/website",
+  "hosting": ["Host Africa", "GitHub Pages", "Vercel", "Cloudflare"],
+  "target_industries": ["mining", "manufacturing", "power", "government", "logistics", "heavy_industry"],
+  "target_regions": ["South Africa", "SADC", "Africa"],
+  "ibm_partner_status": "Registered",
+  "aws_status": "In Progress",
+  "team_size": 4,
+  "daily_lead_target": 50,
+  "daily_content_posts": 3
+}

@@ -1,0 +1,36 @@
+{
+  "week_ending": "2026-04-04",
+  "team_overview": {
+    "thando": {
+      "name": "Thando",
+      "courses_completed": 0,
+      "progress_percent": 0.0,
+      "status": "needs_support"
+    },
+    "samkelo": {
+      "name": "Samkelo",
+      "courses_completed": 0,
+      "progress_percent": 0.0,
+      "status": "needs_support"
+    },
+    "lorraine": {
+      "name": "Lorraine",
+      "courses_completed": 0,
+      "progress_percent": 0.0,
+      "status": "needs_support"
+    }
+  },
+  "achievements": [],
+  "concerns": [
+    "Thando may need additional support",
+    "Samkelo may need additional support",
+    "Lorraine may need additional support"
+  ],
+  "actions_for_founder": [
+    "Review individual progress with each team member",
+    "Identify and address any blockers",
+    "Celebrate wins and milestones",
+    "Adjust targets if needed"
+  ],
+  "overall_progress": 0.0
+}

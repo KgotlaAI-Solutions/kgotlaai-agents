@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-04-04T02:30:25.123310",
+  "company": "Kgotla AI",
+  "kpis": {
+    "leads_generated_today": 138,
+    "leads_this_week": 0,
+    "content_posts_scheduled": 3,
+    "website_issues_critical": 2,
+    "funding_applications_pending": 0,
+    "team_avg_progress": 0.0,
+    "pipeline_value": 0
+  },
+  "sections": {
+    "leads": {
+      "total_leads": 138,
+      "high_priority": 138,
+      "by_source": {
+        "Target Company List": 138
+      },
+      "by_sector": {
+        "mining": 39,
+        "manufacturing": 30,
+        "power": 21,
+        "logistics": 21,
+        "heavy_industry": 27
+      }
+    },
+    "content": {
+      "posts_generated": 3,
+      "themes": [
+        "case_studies",
+        "educational",
+        "thought_leadership"
+      ],
+      "industries": [
+        "logistics",
+        "mining",
+        "manufacturing"
+      ]
+    },
+    "website": {
+      "critical_issues": 2,
+      "high_priority": 3,
+      "medium_priority": 3
+    },
+    "funding": {
+      "immediate": 3,
+      "short_term": 3,
+      "medium_term": 3,
+      "total": 9,
+      "target_amount": 320100
+    },
+    "team": {
+      "members": 3,
+      "avg_progress": 0.0,
+      "individual": {
+        "thando": 0.0,
+        "samkelo": 0.0,
+        "lorraine": 0.0
+      }
+    }
+  },
+  "actions_required": [
+    {
+      "priority": "CRITICAL",
+      "category": "Website",
+      "action": "Fix SSL/HTTPS issue immediately",
+      "impact": "Clients see security warning - losing trust",
+      "time_estimate": "2 hours"
+    },
+    {
+      "priority": "HIGH",
+      "category": "Funding",
+      "action": "Apply to 3 immediate funding opportunities",
+      "impact": "Secure runway for next 6 months",
+      "time_estimate": "4 hours"
+    },
+    {
+      "priority": "HIGH",
+      "category": "Sales",
+      "action": "Contact 138 high-priority leads",
+      "impact": "Convert leads to meetings",
+      "time_estimate": "2 hours"
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Marketing",
+      "action": "Post today's content to LinkedIn",
+      "impact": "Build brand visibility",
+      "time_estimate": "30 minutes"
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Team",
+      "action": "Check in with team on IBM progress",
+      "impact": "Ensure certification timeline met",
+      "time_estimate": "30 minutes"
+    }
+  ],
+  "daily_priorities": [
+    {
+      "time": "08:00",
+      "task": "Review dashboard and overnight leads",
+      "duration": "15 min"
+    },
+    {
+      "time": "08:15",
+      "task": "Post LinkedIn content (morning)",
+      "duration": "15 min"
+    },
+    {
+      "time": "09:00",
+      "task": "Team standup - IBM progress check",
+      "duration": "15 min"
+    },
+    {
+      "time": "09:30",
+      "task": "Contact high-priority leads",
+      "duration": "1 hour"
+    },
+    {
+      "time": "11:00",
+      "task": "Work on funding applications",
+      "duration": "2 hours"
+    },
+    {
+      "time": "14:00",
+      "task": "Client calls/meetings",
+      "duration": "2 hours"
+    },
+    {
+      "time": "16:00",
+      "task": "Post LinkedIn content (afternoon)",
+      "duration": "15 min"
+    },
+    {
+      "time": "16:30",
+      "task": "Review and plan tomorrow",
+      "duration": "30 min"
+    },
+    {
+      "time": "17:00",
+      "task": "Post LinkedIn content (evening)",
+      "duration": "15 min"
+    }
+  ]
+}

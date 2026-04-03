@@ -1,0 +1,227 @@
+{
+  "audit_date": "2026-04-04T02:30:08.375251",
+  "domain": "kgotlaai.co.za",
+  "critical_issues": [
+    {
+      "issue": "HTTP Insecure Warning",
+      "impact": "Clients see security warning, immediate trust loss, high bounce rate",
+      "solution": "Implement SSL/HTTPS using Cloudflare + GitHub Pages/Vercel",
+      "guide_reference": "ssl_fix_guide"
+    },
+    {
+      "issue": "Broken Demo Components",
+      "impact": "Cannot showcase capabilities, prospects leave without understanding value",
+      "solution": "Fix or replace with video/screenshots + CTA",
+      "guide_reference": "demo_fix_guide"
+    }
+  ],
+  "high_priority": [
+    {
+      "issue": "Missing Clear CTAs",
+      "impact": "Visitors don't know what action to take",
+      "solution": "Add prominent \"Request Demo\" and \"Contact Us\" buttons"
+    },
+    {
+      "issue": "No Lead Capture",
+      "impact": "Losing potential clients who aren't ready to contact",
+      "solution": "Add email signup for newsletter/whitepapers"
+    },
+    {
+      "issue": "Slow Page Load",
+      "impact": "Poor user experience, lower search rankings",
+      "solution": "Optimize images, minify assets, enable compression"
+    }
+  ],
+  "medium_priority": [
+    {
+      "issue": "Missing SEO Meta Tags",
+      "impact": "Poor search visibility",
+      "solution": "Add title, description, Open Graph tags"
+    },
+    {
+      "issue": "No Social Proof",
+      "impact": "Lack of trust signals",
+      "solution": "Add client logos, testimonials, case studies"
+    },
+    {
+      "issue": "Missing Analytics",
+      "impact": "Cannot track visitor behavior",
+      "solution": "Add Google Analytics 4, LinkedIn Insight Tag"
+    }
+  ],
+  "guides": {
+    "ssl_fix_guide": {
+      "title": "Kgotla AI Website SSL/HTTPS Fix Guide",
+      "priority": "CRITICAL",
+      "estimated_time": "2-4 hours",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Configure Cloudflare SSL/TLS",
+          "platform": "Cloudflare",
+          "instructions": [
+            "Log in to Cloudflare dashboard (dash.cloudflare.com)",
+            "Select your domain: kgotlaai.co.za",
+            "Go to SSL/TLS \u2192 Overview",
+            "Set SSL/TLS encryption mode to \"Full (strict)\"",
+            "Enable \"Always Use HTTPS\" in Edge Certificates",
+            "Enable \"Automatic HTTPS Rewrites\"",
+            "Set Minimum TLS Version to 1.2"
+          ],
+          "verification": "Visit http://kgotlaai.co.za - should redirect to https://kgotlaai.co.za"
+        },
+        {
+          "step": 2,
+          "title": "Fix Mixed Content Issues",
+          "platform": "GitHub Repository",
+          "instructions": [
+            "Clone your website repository: git clone https://github.com/kgotlaai/website.git",
+            "Search for http:// references: grep -r \"http://\" . --include=\"*.html\" --include=\"*.css\" --include=\"*.js\"",
+            "Replace all http:// with https:// in HTML/CSS/JS files",
+            "Check for protocol-relative URLs (//example.com) and ensure they work",
+            "Update any external resources (fonts, scripts, images) to use HTTPS"
+          ],
+          "common_issues": [
+            "Google Fonts loading over HTTP",
+            "CDN scripts (jQuery, Bootstrap) using HTTP",
+            "Images from external sources",
+            "API endpoints hardcoded with HTTP"
+          ],
+          "verification": "Use Chrome DevTools \u2192 Security tab to check for mixed content"
+        },
+        {
+          "step": 3,
+          "title": "Enable HTTPS on GitHub Pages",
+          "platform": "GitHub",
+          "instructions": [
+            "Go to github.com/kgotlaai/website/settings/pages",
+            "Under \"GitHub Pages\" section",
+            "Check \"Enforce HTTPS\" checkbox",
+            "Ensure custom domain is set to kgotlaai.co.za",
+            "Wait 5-10 minutes for DNS propagation"
+          ],
+          "verification": "GitHub Pages shows \"Your site is published at https://kgotlaai.co.za\""
+        },
+        {
+          "step": 4,
+          "title": "Configure Vercel SSL",
+          "platform": "Vercel",
+          "instructions": [
+            "Log in to vercel.com dashboard",
+            "Select your Kgotla AI project",
+            "Go to Settings \u2192 Domains",
+            "Verify kgotlaai.co.za is configured",
+            "Enable \"HTTPS Only\" if available",
+            "Check that SSL certificate is auto-provisioned"
+          ],
+          "verification": "Vercel dashboard shows SSL certificate as \"Active\""
+        },
+        {
+          "step": 5,
+          "title": "Verify DNS Configuration",
+          "platform": "Host Africa / DNS Provider",
+          "instructions": [
+            "Log in to Host Africa control panel",
+            "Check DNS records for kgotlaai.co.za",
+            "Ensure A records point to correct IPs:",
+            "  - For Cloudflare: Use Cloudflare nameservers",
+            "  - For GitHub Pages: 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153",
+            "  - For Vercel: 76.76.21.21",
+            "Ensure CNAME record for www points to @ or appropriate target",
+            "Check TTL values (recommend 300 for quick changes)"
+          ],
+          "verification": "Run: dig kgotlaai.co.za +short - should show correct IPs"
+        }
+      ]
+    },
+    "demo_fix_guide": {
+      "title": "Fix Broken Demo Components",
+      "priority": "HIGH",
+      "estimated_time": "3-6 hours",
+      "demo_issues": [
+        {
+          "issue": "RAG Chatbot Demo Not Working",
+          "symptoms": [
+            "Chat interface loads but no responses",
+            "Error messages in console",
+            "API endpoint returning 404/500"
+          ],
+          "fixes": [
+            "Check if backend API is running (IBM watsonx, custom server)",
+            "Verify API endpoint URL in frontend code",
+            "Check API key/environment variables",
+            "Test API independently using curl or Postman",
+            "Add error handling and user-friendly error messages",
+            "Consider using a mock/demo mode for static sites"
+          ],
+          "fallback_solution": "Replace live demo with recorded video/screenshots until backend is fixed"
+        },
+        {
+          "issue": "Demo Links Return 404",
+          "symptoms": [
+            "Clicking demo button shows 404 page",
+            "Demo page missing from build"
+          ],
+          "fixes": [
+            "Check if demo HTML/JS files exist in repository",
+            "Verify file paths in navigation links",
+            "Check build process includes demo files",
+            "Ensure case sensitivity matches (Demo.html vs demo.html)"
+          ]
+        },
+        {
+          "issue": "Interactive Elements Not Responding",
+          "symptoms": [
+            "Buttons don't work",
+            "Forms don't submit",
+            "Animations broken"
+          ],
+          "fixes": [
+            "Check browser console for JavaScript errors",
+            "Verify jQuery/other libraries loaded correctly",
+            "Check for JavaScript file loading over HTTP (mixed content)",
+            "Test in multiple browsers (Chrome, Firefox, Safari)",
+            "Ensure event listeners attached after DOM loads"
+          ]
+        },
+        {
+          "issue": "Slow Loading Demos",
+          "symptoms": [
+            "Demo takes >5 seconds to load",
+            "Images/assets loading slowly"
+          ],
+          "fixes": [
+            "Optimize images (compress, use WebP format)",
+            "Lazy load demo components",
+            "Minify CSS/JS files",
+            "Use CDN for static assets",
+            "Add loading indicators"
+          ]
+        }
+      ],
+      "quick_fix_template": "\n<!-- Demo Placeholder Template - Use while fixing live demo -->\n<div class=\"demo-container\">\n    <div class=\"demo-video\">\n        <video controls poster=\"demo-thumbnail.jpg\">\n            <source src=\"demo-video.mp4\" type=\"video/mp4\">\n            Your browser does not support the video tag.\n        </video>\n    </div>\n    <div class=\"demo-cta\">\n        <h3>See AI in Action</h3>\n        <p>Watch how Kgotla AI solutions transform industrial operations.</p>\n        <a href=\"#contact\" class=\"btn btn-primary\">Request Live Demo</a>\n    </div>\n</div>\n"
+    },
+    "seo_optimization_guide": {
+      "title": "SEO Optimization for Kgotla AI",
+      "priority": "MEDIUM",
+      "recommendations": [
+        {
+          "category": "Meta Tags",
+          "template": "<!-- Add to <head> section of every page -->\n<title>Kgotla AI | Industrial AI Solutions for Mining & Manufacturing | South Africa</title>\n<meta name=\"description\" content=\"Kgotla AI delivers enterprise AI solutions for mining, manufacturing, and power industries. Predictive maintenance, safety AI, and automation. Based in South Africa, serving SADC region.\">\n<meta name=\"keywords\" content=\"AI South Africa, mining AI, manufacturing automation, predictive maintenance, industrial AI, SADC\">\n<meta name=\"author\" content=\"Mahlo Kgotleng\">\n<meta name=\"robots\" content=\"index, follow\">\n\n<!-- Open Graph -->\n<meta property=\"og:title\" content=\"Kgotla AI | Industrial AI Solutions\">\n<meta property=\"og:description\" content=\"Enterprise AI for mining, manufacturing, and power industries\">\n<meta property=\"og:image\" content=\"https://kgotlaai.co.za/images/og-image.jpg\">\n<meta property=\"og:url\" content=\"https://kgotlaai.co.za\">\n<meta property=\"og:type\" content=\"website\">\n\n<!-- Twitter Card -->\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Kgotla AI | Industrial AI Solutions\">\n<meta name=\"twitter:description\" content=\"Enterprise AI for mining, manufacturing, and power industries\">\n<meta name=\"twitter:image\" content=\"https://kgotlaai.co.za/images/twitter-card.jpg\">\n"
+        },
+        {
+          "category": "Structured Data (Schema.org)",
+          "template": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Kgotla AI\",\n  \"url\": \"https://kgotlaai.co.za\",\n  \"logo\": \"https://kgotlaai.co.za/images/logo.png\",\n  \"description\": \"Enterprise AI solutions for industrial operations\",\n  \"founder\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mahlo Kgotleng\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressCountry\": \"ZA\"\n  },\n  \"sameAs\": [\n    \"https://www.linkedin.com/in/mahlo-kgotleng-473830194\"\n  ],\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"email\": \"mahlo@kgotlaai.co.za\",\n    \"contactType\": \"sales\"\n  }\n}\n</script>\n"
+        },
+        {
+          "category": "robots.txt",
+          "content": "User-agent: *\nAllow: /\n\nSitemap: https://kgotlaai.co.za/sitemap.xml\n\n# Disallow admin areas if any\nDisallow: /admin/\nDisallow: /private/\n"
+        },
+        {
+          "category": "sitemap.xml",
+          "template": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://kgotlaai.co.za/</loc>\n    <lastmod>2025-01-01</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n  </url>\n  <url>\n    <loc>https://kgotlaai.co.za/services</loc>\n    <lastmod>2025-01-01</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>https://kgotlaai.co.za/case-studies</loc>\n    <lastmod>2025-01-01</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>https://kgotlaai.co.za/about</loc>\n    <lastmod>2025-01-01</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n  <url>\n    <loc>https://kgotlaai.co.za/contact</loc>\n    <lastmod>2025-01-01</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n</urlset>\n"
+        }
+      ]
+    }
+  }
+}

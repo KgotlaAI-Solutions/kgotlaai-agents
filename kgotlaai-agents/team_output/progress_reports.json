@@ -1,0 +1,83 @@
+{
+  "thando": {
+    "member_name": "Thando",
+    "report_date": "2026-04-04",
+    "path": "IBM AI Practitioner",
+    "summary": {
+      "courses_completed": 0,
+      "courses_in_progress": 0,
+      "total_courses": 9,
+      "progress_percent": 0.0,
+      "estimated_completion": "2026-05-19"
+    },
+    "completed_courses": [],
+    "in_progress_courses": [],
+    "next_courses": [
+      {
+        "id": "ai_fundamentals",
+        "name": "IBM AI Fundamentals",
+        "duration_hours": 8,
+        "badge": "IBM AI Fundamentals",
+        "prerequisites_met": true
+      }
+    ],
+    "recommendations": [
+      "Start with IBM AI Fundamentals immediately",
+      "Current pace is behind target. Increase daily study time to 3 hours"
+    ]
+  },
+  "samkelo": {
+    "member_name": "Samkelo",
+    "report_date": "2026-04-04",
+    "path": "IBM AI Practitioner",
+    "summary": {
+      "courses_completed": 0,
+      "courses_in_progress": 0,
+      "total_courses": 9,
+      "progress_percent": 0.0,
+      "estimated_completion": "2026-05-19"
+    },
+    "completed_courses": [],
+    "in_progress_courses": [],
+    "next_courses": [
+      {
+        "id": "ai_fundamentals",
+        "name": "IBM AI Fundamentals",
+        "duration_hours": 8,
+        "badge": "IBM AI Fundamentals",
+        "prerequisites_met": true
+      }
+    ],
+    "recommendations": [
+      "Start with IBM AI Fundamentals immediately",
+      "Current pace is behind target. Increase daily study time to 3 hours"
+    ]
+  },
+  "lorraine": {
+    "member_name": "Lorraine",
+    "report_date": "2026-04-04",
+    "path": "IBM AI Practitioner",
+    "summary": {
+      "courses_completed": 0,
+      "courses_in_progress": 0,
+      "total_courses": 9,
+      "progress_percent": 0.0,
+      "estimated_completion": "2026-05-19"
+    },
+    "completed_courses": [],
+    "in_progress_courses": [],
+    "next_courses": [
+      {
+        "id": "ai_fundamentals",
+        "name": "IBM AI Fundamentals",
+        "duration_hours": 8,
+        "badge": "IBM AI Fundamentals",
+        "prerequisites_met": true
+      }
+    ],
+    "recommendations": [
+      "Start with IBM AI Fundamentals immediately",
+      "Current pace is behind target. Increase daily study time to 3 hours"
+    ]
+  }
+}

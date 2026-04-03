@@ -1,0 +1,71 @@
+{
+  "thando": {
+    "member_name": "Thando",
+    "date": "2026-04-04",
+    "target_course": "IBM AI Fundamentals",
+    "target_hours": 2,
+    "target_modules": {
+      "total_in_course": 12,
+      "target_today": 3
+    },
+    "actions": [
+      "Log in to IBM SkillsBuild: https://skillsbuild.org/",
+      "Continue/Start: IBM AI Fundamentals",
+      "Complete at least 2 hours",
+      "Take notes on key concepts",
+      "Complete all quizzes/assessments"
+    ],
+    "resources": [
+      "IBM SkillsBuild platform",
+      "Course discussion forum",
+      "Team Slack/Discord for questions"
+    ],
+    "check_in": "End of day: Update progress in team tracker"
+  },
+  "samkelo": {
+    "member_name": "Samkelo",
+    "date": "2026-04-04",
+    "target_course": "IBM AI Fundamentals",
+    "target_hours": 2,
+    "target_modules": {
+      "total_in_course": 12,
+      "target_today": 3
+    },
+    "actions": [
+      "Log in to IBM SkillsBuild: https://skillsbuild.org/",
+      "Continue/Start: IBM AI Fundamentals",
+      "Complete at least 2 hours",
+      "Take notes on key concepts",
+      "Complete all quizzes/assessments"
+    ],
+    "resources": [
+      "IBM SkillsBuild platform",
+      "Course discussion forum",
+      "Team Slack/Discord for questions"
+    ],
+    "check_in": "End of day: Update progress in team tracker"
+  },
+  "lorraine": {
+    "member_name": "Lorraine",
+    "date": "2026-04-04",
+    "target_course": "IBM AI Fundamentals",
+    "target_hours": 2,
+    "target_modules": {
+      "total_in_course": 12,
+      "target_today": 3
+    },
+    "actions": [
+      "Log in to IBM SkillsBuild: https://skillsbuild.org/",
+      "Continue/Start: IBM AI Fundamentals",
+      "Complete at least 2 hours",
+      "Take notes on key concepts",
+      "Complete all quizzes/assessments"
+    ],
+    "resources": [
+      "IBM SkillsBuild platform",
+      "Course discussion forum",
+      "Team Slack/Discord for questions"
+    ],
+    "check_in": "End of day: Update progress in team tracker"
+  }
+}

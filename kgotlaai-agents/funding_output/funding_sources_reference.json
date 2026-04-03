@@ -1,0 +1,332 @@
+{
+  "government": {
+    "sefa": {
+      "name": "Small Enterprise Finance Agency (sefa)",
+      "website": "https://www.sefa.org.za",
+      "programs": [
+        {
+          "name": "Direct Lending",
+          "amount": "Up to R5 million",
+          "type": "loan"
+        },
+        {
+          "name": "Wholesale Lending",
+          "amount": "Up to R15 million",
+          "type": "loan"
+        },
+        {
+          "name": "Credit Guarantee",
+          "amount": "Various",
+          "type": "guarantee"
+        }
+      ],
+      "eligibility": [
+        "SMME",
+        "Black-owned",
+        "Operational track record"
+      ],
+      "documents": [
+        "Business plan",
+        "Financial statements",
+        "B-BBEE certificate",
+        "Company registration"
+      ]
+    },
+    "seda": {
+      "name": "Small Enterprise Development Agency (SEDA)",
+      "website": "https://www.seda.org.za",
+      "programs": [
+        {
+          "name": "Business Support",
+          "amount": "Free services",
+          "type": "support"
+        },
+        {
+          "name": "Incubation",
+          "amount": "Program-based",
+          "type": "program"
+        }
+      ],
+      "eligibility": [
+        "SMME",
+        "Early stage or established"
+      ],
+      "documents": [
+        "Business registration",
+        "Business plan"
+      ]
+    },
+    "nef": {
+      "name": "National Empowerment Fund (NEF)",
+      "website": "https://www.nefcorp.co.za",
+      "programs": [
+        {
+          "name": "iMbewu Fund",
+          "amount": "R250k - R10 million",
+          "type": "equity/debt"
+        },
+        {
+          "name": "uMnotho Fund",
+          "amount": "R2 - R75 million",
+          "type": "equity/debt"
+        },
+        {
+          "name": "Rural & Community Development",
+          "amount": "Various",
+          "type": "grant/loan"
+        }
+      ],
+      "eligibility": [
+        "Black-owned (100%)",
+        "B-BBEE Level 1-3",
+        "Operational business"
+      ],
+      "documents": [
+        "B-BBEE certificate",
+        "Business plan",
+        "Financials",
+        "Shareholder agreements"
+      ]
+    },
+    "idc": {
+      "name": "Industrial Development Corporation (IDC)",
+      "website": "https://www.idc.co.za",
+      "programs": [
+        {
+          "name": "Gro-E Youth Scheme",
+          "amount": "Up to R1 million",
+          "type": "loan"
+        },
+        {
+          "name": "Development Funds",
+          "amount": "Various",
+          "type": "equity/debt"
+        },
+        {
+          "name": "Sector Specific",
+          "amount": "Project-based",
+          "type": "mixed"
+        }
+      ],
+      "eligibility": [
+        "Manufacturing/Industrial focus",
+        "Job creation",
+        "Economic impact"
+      ],
+      "documents": [
+        "Feasibility study",
+        "Business plan",
+        "Financial projections",
+        "Environmental assessments"
+      ]
+    },
+    "dtic_grants": {
+      "name": "DTIC Incentives & Grants",
+      "website": "https://www.thedtic.gov.za",
+      "programs": [
+        {
+          "name": "Black Industrialists Scheme",
+          "amount": "Up to R50 million",
+          "type": "grant/loan"
+        },
+        {
+          "name": "Enterprise Investment Programme",
+          "amount": "Various",
+          "type": "grant"
+        },
+        {
+          "name": "Manufacturing Competitiveness",
+          "amount": "Project-based",
+          "type": "grant"
+        }
+      ],
+      "eligibility": [
+        "Manufacturing focus",
+        "B-BBEE compliance",
+        "Export potential"
+      ],
+      "documents": [
+        "Detailed business plan",
+        "Financial statements",
+        "Tax clearance",
+        "B-BBEE certificate"
+      ]
+    }
+  },
+  "private_sector": {
+    "anglo_american_zimele": {
+      "name": "Anglo American Zimele",
+      "website": "https://www.angloamerican.com",
+      "programs": [
+        {
+          "name": "Enterprise Development",
+          "amount": "Various",
+          "type": "funding/support"
+        },
+        {
+          "name": "Supplier Development",
+          "amount": "Contract-based",
+          "type": "procurement"
+        }
+      ],
+      "eligibility": [
+        "Mining sector alignment",
+        "B-BBEE compliant",
+        "Operational track record"
+      ],
+      "documents": [
+        "Company profile",
+        "Financials",
+        "B-BBEE certificate",
+        "Mining sector experience"
+      ]
+    },
+    "sasol_siyakha": {
+      "name": "Sasol Siyakha",
+      "website": "https://www.sasol.com",
+      "programs": [
+        {
+          "name": "Supplier Development",
+          "amount": "Various",
+          "type": "funding/support"
+        },
+        {
+          "name": "Enterprise Development",
+          "amount": "Grant/Loan",
+          "type": "mixed"
+        }
+      ],
+      "eligibility": [
+        "Energy/chemical sector",
+        "B-BBEE compliant"
+      ],
+      "documents": [
+        "Business plan",
+        "B-BBEE certificate",
+        "Sector alignment proof"
+      ]
+    },
+    "absa_enterprise": {
+      "name": "ABSA Enterprise Development",
+      "website": "https://www.absa.co.za",
+      "programs": [
+        {
+          "name": "Enterprise Supplier Development",
+          "amount": "Various",
+          "type": "funding"
+        },
+        {
+          "name": "Business Loan",
+          "amount": "Up to R50 million",
+          "type": "loan"
+        }
+      ],
+      "eligibility": [
+        "B-BBEE compliant",
+        "Trading history",
+        "Banking relationship"
+      ],
+      "documents": [
+        "Business plan",
+        "Financial statements",
+        "B-BBEE certificate"
+      ]
+    },
+    "nedbank_enterprise": {
+      "name": "Nedbank Enterprise Development",
+      "website": "https://www.nedbank.co.za",
+      "programs": [
+        {
+          "name": "Enterprise Development Funding",
+          "amount": "Various",
+          "type": "mixed"
+        },
+        {
+          "name": "Business Lending",
+          "amount": "Up to R50 million",
+          "type": "loan"
+        }
+      ],
+      "eligibility": [
+        "B-BBEE compliant",
+        "Sustainable business model"
+      ],
+      "documents": [
+        "Business plan",
+        "Financials",
+        "B-BBEE certificate"
+      ]
+    },
+    "standard_bank": {
+      "name": "Standard Bank Enterprise Development",
+      "website": "https://www.standardbank.co.za",
+      "programs": [
+        {
+          "name": "Enterprise Development",
+          "amount": "Various",
+          "type": "funding"
+        },
+        {
+          "name": "Business Lending",
+          "amount": "Up to R50 million",
+          "type": "loan"
+        }
+      ],
+      "eligibility": [
+        "B-BBEE compliant",
+        "Operational business"
+      ],
+      "documents": [
+        "Business plan",
+        "Financial statements",
+        "B-BBEE certificate"
+      ]
+    }
+  },
+  "venture_capital": {
+    "4di_capital": {
+      "name": "4Di Capital",
+      "website": "https://www.4dicapital.com",
+      "focus": "Early-stage tech startups",
+      "investment_range": "R1 - R10 million",
+      "eligibility": [
+        "Tech-enabled",
+        "Scalable",
+        "Strong team"
+      ]
+    },
+    "knife_capital": {
+      "name": "Knife Capital",
+      "website": "https://www.knifecapital.co.za",
+      "focus": "Growth-stage tech companies",
+      "investment_range": "R5 - R50 million",
+      "eligibility": [
+        "Revenue-generating",
+        "Growth trajectory",
+        "Exit potential"
+      ]
+    },
+    "havaic": {
+      "name": "HAVA\u00cdC",
+      "website": "https://www.havaic.com",
+      "focus": "Tech and innovation",
+      "investment_range": "R2 - R20 million",
+      "eligibility": [
+        "Innovative tech",
+        "Strong founding team",
+        "Market traction"
+      ]
+    },
+    "jozi_angels": {
+      "name": "Jozi Angels",
+      "website": "https://www.joziangels.com",
+      "focus": "Early-stage startups",
+      "investment_range": "R500k - R5 million",
+      "eligibility": [
+        "Early stage",
+        "Strong team",
+        "Market validation"
+      ]
+    }
+  }
+}

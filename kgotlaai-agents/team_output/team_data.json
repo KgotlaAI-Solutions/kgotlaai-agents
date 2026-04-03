@@ -1,0 +1,35 @@
+{
+  "thando": {
+    "name": "Thando",
+    "email": "",
+    "role": "AI Developer",
+    "ibm_portal": "https://skillsbuild.org/",
+    "current_path": "IBM AI Practitioner",
+    "courses_completed": [],
+    "courses_in_progress": [],
+    "daily_target_hours": 2,
+    "start_date": "2025-01-01"
+  },
+  "samkelo": {
+    "name": "Samkelo",
+    "email": "",
+    "role": "AI Developer",
+    "ibm_portal": "https://skillsbuild.org/",
+    "current_path": "IBM AI Practitioner",
+    "courses_completed": [],
+    "courses_in_progress": [],
+    "daily_target_hours": 2,
+    "start_date": "2025-01-01"
+  },
+  "lorraine": {
+    "name": "Lorraine",
+    "email": "",
+    "role": "AI Developer",
+    "ibm_portal": "https://skillsbuild.org/",
+    "current_path": "IBM AI Practitioner",
+    "courses_completed": [],
+    "courses_in_progress": [],
+    "daily_target_hours": 2,
+    "start_date": "2025-01-01"
+  }
+}

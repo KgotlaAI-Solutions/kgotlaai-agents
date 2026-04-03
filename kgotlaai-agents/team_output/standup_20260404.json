@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-04",
+  "meeting_type": "Daily Standup",
+  "template": {
+    "yesterday": "What did you complete yesterday?",
+    "today": "What will you work on today?",
+    "blockers": "Any blockers or help needed?"
+  },
+  "team_updates": {
+    "thando": {
+      "name": "Thando",
+      "current_focus": "IBM AI Fundamentals",
+      "suggested_update": "Working on IBM AI Fundamentals"
+    },
+    "samkelo": {
+      "name": "Samkelo",
+      "current_focus": "IBM AI Fundamentals",
+      "suggested_update": "Working on IBM AI Fundamentals"
+    },
+    "lorraine": {
+      "name": "Lorraine",
+      "current_focus": "IBM AI Fundamentals",
+      "suggested_update": "Working on IBM AI Fundamentals"
+    }
+  }
+}

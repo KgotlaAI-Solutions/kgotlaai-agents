@@ -1,0 +1,21 @@
+# Kgotla AI Agents - Requirements
+# Install with: pip install -r requirements.txt
+
+# Web scraping and HTTP requests
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Scheduling (for automated runs)
+schedule>=1.2.0
+
+# Email (for automated outreach)
+# Note: For production, use proper email service like SendGrid
+
+# Optional: For advanced features
+# selenium>=4.15.0  # For browser automation
+# openpyxl>=3.1.0   # For Excel export

@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-04T02:30:25.121314",
+  "total_leads": 138,
+  "high_priority": 138,
+  "medium_priority": 0,
+  "by_source": {
+    "Target Company List": 138
+  },
+  "by_sector": {
+    "mining": 39,
+    "manufacturing": 30,
+    "power": 21,
+    "logistics": 21,
+    "heavy_industry": 27
+  }
+}
